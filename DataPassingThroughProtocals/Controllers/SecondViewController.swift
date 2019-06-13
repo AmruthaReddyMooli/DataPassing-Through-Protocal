@@ -8,7 +8,7 @@
 
 import UIKit
 
-
+// Mark: Protocol
 protocol DataPassing {
     func dataStoring(myData:String)
 }

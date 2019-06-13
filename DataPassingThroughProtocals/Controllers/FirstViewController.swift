@@ -8,6 +8,11 @@
 
 import UIKit
 
+// Mark: Enumaration
+enum Views:String {
+    case view1 = "SecondViewController"
+}
+
 class FirstViewController: UIViewController, DataPassing {
     
     // Mark: IBOutlets
@@ -18,10 +23,7 @@ class FirstViewController: UIViewController, DataPassing {
     // Mark: Local Variables
     var data:DataPassing!
     
-    // Mark: Enumaration
-    enum Views:String {
-        case view1 = "SecondViewController"
-    }
+   
    
     // View
     override func viewDidLoad() {
